@@ -71,13 +71,17 @@ header #login {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-position: center;
-  padding: 130px 0;
+  padding: 120px 0;
 }
 
 .hero-item {
   width: 60%;
   margin: 5px;
   text-align: center;
+}
+
+.hero-item p {
+  padding-bottom: 30px;
 }
 
 /* /Hero section  */
@@ -165,7 +169,7 @@ footer .foot-nav-container {
 /* buttons */
 
 .btn {
-  border-radius: 13px;
+  border-radius: 20px;
 }
 
 .btn-small {
@@ -176,20 +180,19 @@ footer .foot-nav-container {
   padding-top: 4px;
 }
 
+.btn-big {
+  width: 100px;
+  height: 25px;
+  font-size: .9rem;
+  padding: 10px;
+}
+
 /* /buttons */
 
-/* text utilities */
 
-.white-txt {
-  color: white;
-}
-
-.black-txt {
-  color: #1D202C;
-}
-
+/* text utilities */ 
 .big-txt {
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding-bottom: 15px;
 }
 
@@ -200,6 +203,26 @@ footer .foot-nav-container {
 }
 
 /* /text utilities */
+
+/* color utilities */
+
+.background-white {
+  background-color: white;
+}
+
+.background-black {
+  background-color:  #1D202C;
+}
+
+.white-txt {
+  color: white;
+}
+
+.black-txt {
+  color: #1D202C;
+}
+
+/* /color utilities */
 
 
 /* links */
