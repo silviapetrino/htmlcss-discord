@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #255EE9;
+  background-color: #255EE9; 
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -31,23 +31,23 @@ footer .foot-nav-container {
 header {
   background-color: #255EE9;
   height: 50px;
-  margin: 10px auto;
 }
 
 header .header-container {
   background-color: #255EE9;
-  border: 1px dashed black;
+  padding-top: 7px
 }
 
 
 header .logo {
   text-align: left;
-  border: 1px dashed black;
 }
 
 header .nav {
   text-align: center;
-  border: 1px dashed black;
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 10px;
 }
 
 header .nav ul {
@@ -56,12 +56,13 @@ header .nav ul {
 
 header .nav li {
   display: inline;
-  padding: 10px;
+  padding: 15px;
 }
 
 header #login {
-  text-align: right;
-  border: 1px dashed black;}
+  text-align: center;
+  margin-top: 5px;
+}
 
 /* Hero section  */
 /* altezza da togliere */
@@ -166,3 +167,22 @@ footer .foot-nav-container {
 
 
 /* /footer  */
+
+/* UTILITIES */
+/* scritta colore bianco */
+
+.white-txt {
+  color: white;
+}
+
+.btn {
+  border-radius: 13px;
+}
+
+.btn-small {
+  background-color: white;
+  width: 60px;
+  height: 25px;
+  font-size: 11px;
+  padding-top: 4px;
+}
