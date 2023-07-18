@@ -9,10 +9,31 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-p {
-  padding-top: 20px;
-  font-size: 0.9rem;
+/* containers indications */
+
+.container { 
+  justify-content: center;
 }
+
+
+.header-container, 
+.foot-nav-container {
+  justify-content: space-between;
+}
+
+/* /containers indications */
+
+
+/* general istructions for sections */
+
+section {
+  padding-top: 40px;
+  text-align: left;
+}
+
+section.hero-section,
+section.gray-green-section {
+text-align: center;}
 
 .container, 
 header .header-container, 
@@ -23,29 +44,30 @@ footer .foot-nav-container {
   width: 80%;
 }
 
-.container { 
-  justify-content: center;
-  padding: 20px 0px;
+section.white-background {
+  background-color: #ffffff;
 }
 
-header .header-container, 
-footer .foot-nav-container {
-  justify-content: space-between;
+section.gray-background,
+section.gray-green-section {
+  background-color: #F6F6F6;
 }
+
+/* /general istructions for sections */
+
+
+/* header section  */
 
 header {
   background-color: #255EE9;
   height: 50px;
-}
-
-header .header-container {
-  background-color: #255EE9;
-  padding-top: 7px
+  padding-top: 10px;
 }
 
 
 header .logo {
   text-align: left;
+  width: 30px;
 }
 
 header .nav {
@@ -69,6 +91,7 @@ header #login {
   margin-top: 5px;
   cursor: pointer;
 }
+/* /header section  */
 
 /* Hero section  */
 
@@ -76,13 +99,12 @@ header #login {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 120px 0;
 }
 
 .hero-item {
   width: 60%;
   margin: 5px;
-  text-align: center;
 }
 
 .hero-item h1 {
@@ -95,11 +117,11 @@ header #login {
 }
  
 .hero-item span:first-of-type {
-  margin-right: 10px;
+  margin-right: 2%;
 }
 
 .hero-item span:last-of-type {
-  margin-left: 10px;
+  margin-left: 2%;
 }
 
 .arrow {
@@ -107,19 +129,6 @@ header #login {
 }
 /* /Hero section  */
 
-/* section */
-section {
-  padding-top: 20px;
-}
-
-section.white-background {
-  background-color: #ffffff;
-}
-
-section.gray-background,
-section.gray-green-section {
-  background-color: #F6F6F6;
-}
 
 /* blocks with contents */
 
@@ -143,9 +152,15 @@ section.gray-green-section {
 
 
 .gray-green-section .green-block {
-  background-color: #228b22;
-  border: 1px dashed black;
   width: 100%;
+}
+
+.green-block p {
+  margin: 0 10%;
+}
+
+.green-block img {
+  width: 90%;
 }
 
 /* footer  */
@@ -187,7 +202,6 @@ footer .foot-nav-container {
 
 /* /footer  */
 
-/* UTILITIES */
 
 /* buttons */
 
@@ -214,6 +228,14 @@ footer .foot-nav-container {
 
 
 /* text indications */ 
+
+p {
+  padding-top: 20px;
+  font-size: 0.85rem;
+  line-height: 22px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
 
 
 .big-txt {
