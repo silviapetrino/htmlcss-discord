@@ -189,10 +189,6 @@ footer .col {
 }
 
 
-footer .first-col {
-  background-color: #f08080;
-}
-
 footer a {
   color: white;
   line-height: 30px;
@@ -204,6 +200,21 @@ footer a {
   color: #7289DA;
   font-weight: 600;
   font-size: 13px;
+}
+
+footer .first-col h3 {
+  font-size: 1.6rem;
+  padding-bottom: 2%;
+}
+
+footer .language {
+  padding-top: 10px;
+  font-size: 0.7rem;
+  display: inline-block;
+}
+
+footer img:first-of-type {
+  width: 20px;
 }
 
 
