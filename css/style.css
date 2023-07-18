@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: #add8e6;
+  background-color: #255EE9;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .container, 
@@ -28,13 +29,13 @@ footer .foot-nav-container {
 }
 
 header {
-  background-color: #add8e6;
+  background-color: #255EE9;
   height: 50px;
   margin: 10px auto;
 }
 
 header .header-container {
-  background-color: #daa520;
+  background-color: #255EE9;
   border: 1px dashed black;
 }
 
@@ -47,6 +48,15 @@ header .logo {
 header .nav {
   text-align: center;
   border: 1px dashed black;
+}
+
+header .nav ul {
+  list-style: none;
+}
+
+header .nav li {
+  display: inline;
+  padding: 10px;
 }
 
 header #login {
