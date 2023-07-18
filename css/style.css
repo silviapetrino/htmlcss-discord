@@ -65,19 +65,18 @@ header #login {
 }
 
 /* Hero section  */
-/* altezza da togliere */
 
 .hero-section {
-  background-color: #00008b;
-  height: 250px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  padding: 130px 0;
 }
 
 .hero-item {
-  background-color: #ee82ee;
-  border: 1px dashed black;
-  width: 40%;
-  height: 200px;
+  width: 60%;
   margin: 5px;
+  text-align: center;
 }
 
 /* /Hero section  */
@@ -87,7 +86,7 @@ header #login {
 
 section.white-background {
   background-color: #ffffff;
-  height: 280px;
+
 }
 
 
@@ -95,37 +94,30 @@ section.white-background {
   border: 1px dashed black;
   width: 60%;
   background-color:#1e90ff;
-  height: 240px;
 }
 
 .pink-block {
   border: 1px dashed black;
   background-color: #ffc0cb;
-  height: 240px;
   width: 40%;
 }
 
 /* gray background section */
-/* altezza da togliere */
 
 section.gray-background {
   background-color: #d3d3d3;
-  height: 280px;
 }
 
 /*gray background section whit green block*/
-/* altezze da togliere */
 
 section.gray-green-section {
   background-color:#d3d3d3;
-  height: 500px;
 }
 
 .gray-green-section .green-block {
   background-color: #228b22;
   border: 1px dashed black;
   width: 100%;
-  height: 400px;
 }
 
 /* footer  */
@@ -144,7 +136,6 @@ footer .first-col {
 footer .col {
   border: 1px dashed white;
   width: calc(100% / 6);
-  height: 280px;
   background-color: #1e90ff;
 }
 
@@ -169,11 +160,14 @@ footer .foot-nav-container {
 /* /footer  */
 
 /* UTILITIES */
+
 /* scritta colore bianco */
 
 .white-txt {
   color: white;
 }
+
+/* buttons */
 
 .btn {
   border-radius: 13px;
@@ -185,4 +179,15 @@ footer .foot-nav-container {
   height: 25px;
   font-size: 11px;
   padding-top: 4px;
+}
+
+.big-txt {
+  font-size: 2rem;
+  padding-bottom: 15px;
+}
+
+.small-txt {
+  font-size: .8rem;
+  word-spacing: 2px;
+  line-height: 20px;
 }
