@@ -9,6 +9,10 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+p {
+  padding-top: 20px;
+}
+
 .container, 
 header .header-container, 
 footer .foot-nav-container {
@@ -71,13 +75,18 @@ header #login {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-position: center;
-  padding: 110px 0;
+  padding: 100px 0;
 }
 
 .hero-item {
   width: 60%;
   margin: 5px;
   text-align: center;
+}
+
+.hero-item h1 {
+  font-size: 2.2rem;
+  padding-bottom: 15px;
 }
 
 .hero-item p {
@@ -98,25 +107,26 @@ header #login {
 /* /Hero section  */
 
 /* white background section */
-/* altezze da togliere */
 
 section.white-background {
   background-color: #ffffff;
-
+  padding-top: 20px
 }
 
-
 .lightblue-block {
-  border: 1px dashed black;
   width: 60%;
-  background-color:#1e90ff;
+}
+
+.lightblue-block img {
+  width: 90%;
 }
 
 .pink-block {
-  border: 1px dashed black;
-  background-color: #ffc0cb;
+  padding-top: 20px;
   width: 40%;
+  background-color: #ffc0cb;
 }
+
 
 /* gray background section */
 
@@ -201,11 +211,15 @@ footer .foot-nav-container {
 /* /buttons */
 
 
-/* text utilities */ 
+/* text indications */ 
+
+
 .big-txt {
   font-size: 2.2rem;
-  padding-bottom: 15px;
-}
+  font-weight: 750;
+  padding-bottom: 20px;
+} 
+
 
 .small-txt {
   font-size: 0.9rem;
@@ -213,7 +227,7 @@ footer .foot-nav-container {
   line-height: 23px;
 }
 
-/* /text utilities */
+/* /text indications */
 
 /* color utilities */
 
