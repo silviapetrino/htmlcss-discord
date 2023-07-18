@@ -62,6 +62,7 @@ header .nav li {
 header #login {
   text-align: center;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 /* Hero section  */
@@ -161,12 +162,6 @@ footer .foot-nav-container {
 
 /* UTILITIES */
 
-/* scritta colore bianco */
-
-.white-txt {
-  color: white;
-}
-
 /* buttons */
 
 .btn {
@@ -181,13 +176,39 @@ footer .foot-nav-container {
   padding-top: 4px;
 }
 
+/* /buttons */
+
+/* text utilities */
+
+.white-txt {
+  color: white;
+}
+
+.black-txt {
+  color: #1D202C;
+}
+
 .big-txt {
   font-size: 2rem;
   padding-bottom: 15px;
 }
 
 .small-txt {
-  font-size: .8rem;
+  font-size: 0.9rem;
   word-spacing: 2px;
-  line-height: 20px;
+  line-height: 23px;
+}
+
+/* /text utilities */
+
+
+/* links */
+
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  color: white;
 }
