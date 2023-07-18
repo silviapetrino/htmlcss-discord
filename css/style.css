@@ -15,7 +15,6 @@ body {
   justify-content: center;
 }
 
-
 .header-container, 
 .foot-nav-container {
   justify-content: space-between;
@@ -77,9 +76,6 @@ header .nav {
   padding-top: 10px;
 }
 
-header .nav ul {
-  list-style: none;
-}
 
 header .nav li {
   display: inline;
@@ -181,6 +177,7 @@ header #login {
 
 footer {
   background-color: #23272a;
+  padding-top: 5%;
 }
 
 footer .first-col {
@@ -189,18 +186,33 @@ footer .first-col {
 
 footer .col {
   width: calc(100% / 6);
-  background-color: #1e90ff;
 }
+
 
 footer .first-col {
   background-color: #f08080;
 }
 
+footer a {
+  color: white;
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: 250;
+}
+
+.list-title a {
+  color: #7289DA;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+
 /* footer nav  */
 
 footer .foot-nav-container {
   border-top: 1px solid white;
-  padding-top: 10px;
+  padding-top: 30px;
+  margin-top: 3%;
 }
 
 .logo-nav, #registrati {
@@ -238,6 +250,10 @@ footer .foot-nav-container {
 
 
 /* text indications */ 
+
+ul {
+  list-style: none;
+}
 
 p {
   padding-top: 20px;
@@ -283,6 +299,10 @@ p {
 
 .black-txt {
   color: #1D202C;
+}
+
+.light-blue-color {
+  color:#7289DA;
 }
 
 /* /color utilities */
