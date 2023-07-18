@@ -149,7 +149,9 @@ header #login {
 
 /*gray background section whit green block*/
 
-
+.gray-green-section {
+  padding-bottom: 100px;
+}
 
 .gray-green-section .green-block {
   width: 100%;
@@ -163,6 +165,11 @@ header #login {
   width: 90%;
 }
 
+.green-block h3 {
+ padding-bottom: 40px;
+ font-size: 1.3rem;
+}
+
 /* footer  */
 
 /* altezze da togliere */
@@ -172,12 +179,10 @@ footer {
 }
 
 footer .first-col {
-  border: 1px dashed white;
   width: calc(100% / 3);
 }
 
 footer .col {
-  border: 1px dashed white;
   width: calc(100% / 6);
   background-color: #1e90ff;
 }
@@ -261,6 +266,10 @@ p {
 
 .background-black {
   background-color:  #1D202C;
+}
+
+.bg-lightblue {
+  background-color: #7289DA;
 }
 
 .white-txt {
