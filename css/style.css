@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #add8e6;
+}
+
+.container, 
+header .header-container, 
+footer .foot-nav-container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1200px;
+  width: 80%;
+}
+
+.container { 
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+header .header-container, 
+footer .foot-nav-container {
+  justify-content: space-between;
+}
+
+header {
+  background-color: #add8e6;
+  height: 50px;
+  margin: 10px auto;
+}
+
+header .header-container {
+  background-color: #daa520;
+  border: 1px dashed black;
+}
+
+
+header .logo {
+  text-align: left;
+  border: 1px dashed black;
+}
+
+header .nav {
+  text-align: center;
+  border: 1px dashed black;
+}
+
+header #login {
+  text-align: right;
+  border: 1px dashed black;}
+
+/* Hero section  */
+/* altezza da togliere */
+
+.hero-section {
+  background-color: #00008b;
+  height: 250px;
+}
+
+.hero-item {
+  background-color: #ee82ee;
+  border: 1px dashed black;
+  width: 40%;
+  height: 200px;
+  margin: 5px;
+}
+
+/* /Hero section  */
+
+/* white background section */
+/* altezze da togliere */
+
+section.white-background {
+  background-color: #ffffff;
+  height: 280px;
+}
+
+
+.lightblue-block {
+  border: 1px dashed black;
+  width: 60%;
+  background-color:#1e90ff;
+  height: 240px;
+}
+
+.pink-block {
+  border: 1px dashed black;
+  background-color: #ffc0cb;
+  height: 240px;
+  width: 40%;
+}
+
+/* gray background section */
+/* altezza da togliere */
+
+section.gray-background {
+  background-color: #d3d3d3;
+  height: 280px;
+}
+
+/*gray background section whit green block*/
+/* altezze da togliere */
+
+section.gray-green-section {
+  background-color:#d3d3d3;
+  height: 500px;
+}
+
+.gray-green-section .green-block {
+  background-color: #228b22;
+  border: 1px dashed black;
+  width: 100%;
+  height: 400px;
+}
+
+/* footer  */
+
+/* altezze da togliere */
+
+footer {
+  background-color: #23272a;
+}
+
+footer .first-col {
+  border: 1px dashed white;
+  width: calc(100% / 3);
+}
+
+footer .col {
+  border: 1px dashed white;
+  width: calc(100% / 6);
+  height: 280px;
+  background-color: #1e90ff;
+}
+
+footer .first-col {
+  background-color: #f08080;
+}
+
+/* footer nav  */
+
+footer .foot-nav-container {
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+
+.logo-nav, #registrati {
+  background-color: pink;
+  width: 50px;
+  height: 20px;
+}
+
+
+/* /footer  */
