@@ -213,10 +213,14 @@ footer .language {
   display: inline-block;
 }
 
+
 footer img:first-of-type {
   width: 20px;
 }
 
+footer .social-icons>span {
+  padding: 2%;
+  }
 
 /* footer nav  */
 
