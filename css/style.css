@@ -22,11 +22,10 @@ body {
 
 /* /containers indications */
 
-
 /* general istructions for sections */
 
 section {
-  padding-top: 40px;
+  padding: 40px 0px;
   text-align: left;
 }
 
@@ -54,7 +53,6 @@ section.gray-green-section {
 
 /* /general istructions for sections */
 
-
 /* header section  */
 
 header {
@@ -62,7 +60,6 @@ header {
   height: 50px;
   padding-top: 10px;
 }
-
 
 header .logo {
   text-align: left;
@@ -82,11 +79,19 @@ header .nav li {
   padding: 15px;
 }
 
+
+nav a {
+  color: white;
+}
+
+
 header #login {
   text-align: center;
   margin-top: 5px;
   cursor: pointer;
 }
+
+
 /* /header section  */
 
 /* Hero section  */
@@ -125,7 +130,6 @@ header #login {
 }
 /* /Hero section  */
 
-
 /* blocks with contents */
 
 .lightblue-block {
@@ -141,7 +145,6 @@ header #login {
   padding-top: 20px;
   width: 40%;
 }
-
 
 /*gray background section whit green block*/
 
@@ -170,10 +173,9 @@ header #login {
  font-size: 1.3rem;
 }
 
+/*/gray background section whit green block*/
 
 /* footer  */
-
-/* altezze da togliere */
 
 footer {
   background-color: #23272a;
@@ -187,7 +189,6 @@ footer .first-col {
 footer .col {
   width: calc(100% / 6);
 }
-
 
 footer a {
   color: white;
@@ -213,7 +214,6 @@ footer .language {
   display: inline-block;
 }
 
-
 footer img:first-of-type {
   width: 20px;
 }
@@ -221,8 +221,6 @@ footer img:first-of-type {
 footer .social-icons>span {
   padding: 2%;
   }
-
-/* footer nav  */
 
 footer .foot-nav-container {
   border-top: 1px solid white;
@@ -238,7 +236,6 @@ footer .logo-nav {
 .logo-nav .logo-nav-img {
   width: 100%;
 }
-
 
 /* /footer  */
 
@@ -268,6 +265,10 @@ footer .logo-nav {
 
 
 /* text indications */ 
+
+a {
+  text-decoration: none;
+}
 
 ul {
   list-style: none;
@@ -325,17 +326,6 @@ p {
 
 /* /color utilities */
 
-
-/* links */
-
-
-a {
-  text-decoration: none;
-}
-
-nav a {
-  color: white;
-}
 
 
 
