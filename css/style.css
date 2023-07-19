@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #255EE9; 
+  background-color:#F6F6F6; 
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -336,4 +336,6 @@ a {
 nav a {
   color: white;
 }
+
+
 
